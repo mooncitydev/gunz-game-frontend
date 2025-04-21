@@ -1,0 +1,114 @@
+// Font Family
+$inter: var(--font-inter);
+$tungsten: var(--font-tungsten);
+$din: var(--font-din-alternate);
+$montserrat: var(--font-montserrat);
+
+:root {
+  /* Fonts Family */
+
+  /* Colors */
+  --color-primary-10: #ffe5a3;
+  --color-primary-50: #ffbe17;
+  --color-primary-100: #c8991b;
+  --color-primary-200: #382900;
+  --color-primary-300: #b0b0b0;
+  --color-primary-400: #ffcb45;
+  --color-primary-500: #ffdd86;
+  --color-primary-600: #fff6de;
+  --color-primary-700: #f5f5f5;
+  --color-primary-800: rgba(255, 190, 23, 0.6);
+  --color-primary-900: #6b7280;
+  --color-primary-1000: #997338;
+  --color-secondard-0: #b1bcc3;
+  --color-secondary-10: #b9b9b9;
+  --color-secondary-50: #838383;
+  --color-secondary-100: #2e2e2e;
+  --color-secondary-200: #262626;
+  --color-secondary-300: #7b7b7b;
+  --color-secondary-400: #474747;
+  --color-secondary-500: #21201f;
+  --color-secondary-600: #b2b2b2;
+  --color-secondary-700: #292c32;
+  --color-secondary-800: #1f2023;
+  --color-secondary-900: #ece8e1;
+  --color-secondary-1000: #202225;
+  --color-dark: #212121;
+  --color-dark-0: #131313;
+  --color-dark-1: #1f1f1f;
+  --color-dark-2: #191315;
+  --color-dark-3: #0c0300;
+  --color-dark-4: rgba(245, 245, 245, 0.75);
+  --color-dark-5: rgba(46, 46, 46, 0.85);
+  --color-dark-6: #d9d9d9;
+  --color-dark-7: #18191a;
+  --color-dark-8: rgba(24, 25, 26, 0.75);
+  --color-dark-9: rgba(46, 46, 46, 0.95);
+  --color-dark-10: #111111;
+  --color-dark-50: rgba(0, 0, 0, 0.8);
+  --color-gray: rgba(123, 123, 123);
+  --hover-gray: #b2b2b2;
+  --color-success: #42ff00;
+  --color-warning: rgba(255, 190, 23, 0.9);
+  --color-success-one: rgba(204, 255, 139, 0.9);
+  /* Drop Shadow */
+  --shadow-box-1: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --shadow-box-2: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  --shadow-box-3: 0px 0px 151.2px 0px #ffbe18;
+  --shadow-box-4: 0px 3px 4px #000;
+  --shadow-box-5: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  --shadow-box-6: 0px 2px 4px 0px rgba(24, 39, 75, 0.08),
+    0px 8px 16px 0px rgba(24, 39, 75, 0.12),
+    0px -1px 1px 0px rgba(255, 255, 255, 0.25) inset,
+    0px 1px 1px 0px rgba(255, 255, 255, 0.25) inset;
+  --shadow-box-7: linear-gradient(
+      0deg,
+      rgba(255, 190, 23, 0.5) 0.15%,
+      rgba(0, 0, 0, 0) 100.08%
+    ),
+    rgba(41, 44, 50, 0.5);
+  --shadow-box-8: 0px 2px 4px 0px rgba(24, 39, 75, 0.08),
+    0px 8px 16px 0px rgba(24, 39, 75, 0.12),
+    0px -1px 1px 0px rgba(255, 255, 255, 0.25) inset,
+    0px 1px 1px 0px rgba(255, 255, 255, 0.25) inset;
+  --shadow-box-9: 0px 0px 2.528px #ffc93c, 0px 0px 5.055px #ffc93c,
+    0px 0px 17.693px #ffc93c, 0px 0px 35.386px #ffc93c, 0px 0px 60.661px #ffc93c,
+    0px 0px 106.157px #ffc93c;
+  /* Box Shadow */
+  --shadow-box-10: 0px 2px 4px 0px rgba(24, 39, 75, 0.08),
+    0px 8px 16px 0px rgba(24, 39, 75, 0.12);
+  --shadow-play-hover: 0px 0px 2.528px 0px #ffc93c, 0px 0px 5.055px 0px #ffc93c,
+    0px 0px 17.693px 0px #ffc93c, 0px 0px 35.386px 0px #ffc93c,
+    0px 0px 60.661px 0px #ffc93c, 0px 0px 106.157px 0px #ffc93c;
+  --shadow-dropdown: 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 1px 1px 0px rgba(255, 255, 255, 0.25) inset,
+    0px -1px 1px 0px rgba(255, 255, 255, 0.25) inset;
+
+  /* Background */
+  --bg-drop-item: linear-gradient(
+    180deg,
+    rgba(255, 190, 23, 0.38) 0%,
+    rgba(255, 190, 23, 0.25) 100%
+  );
+  --bg-gradient-1: linear-gradient(180deg, #7e7e7e 0%, #525252 100%);
+  --bg-gradient-2: linear-gradient(132deg, #514a35 0%, rgba(0, 0, 0, 0) 80.32%),
+    #292c32;
+  --bg-gradient-3: linear-gradient(180deg, #ffbe17 0%, #edaa05 100%);
+  --bg-gradient-4: linear-gradient(0deg, #191315 1%, rgba(0, 9, 19, 0) 100%);
+  --bg-gradient-5: linear-gradient(
+    180deg,
+    rgba(12, 3, 0, 0) 26.22%,
+    #0c0300 40.74%
+  );
+  --bg-gradient-6: linear-gradient(
+      180deg,
+      rgba(170, 112, 255, 0.15) 0%,
+      rgba(170, 112, 255, 0) 100%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(25, 27, 34, 0.95) 0%,
+      rgba(25, 27, 34, 0.95) 100%
+    );
+}
